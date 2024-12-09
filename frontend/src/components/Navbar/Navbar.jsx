@@ -3,7 +3,7 @@ import './Navbar.css'
 import { CiSearch } from "react-icons/ci";
 import { BsBasket2Fill } from "react-icons/bs";
 import { Link } from 'react-router-dom';
-import { StoreContext } from '../../context/StoreContext';
+import { StoreContext } from '../../context/StoreContext.jsx';
 
 const Navbar = ({ setShowLogin }) => {
     const [menu, setMenu] = useState('menu')
