@@ -93,6 +93,7 @@
 
 .cart-promocode-input input {
     background: transparent;
+    font-size: 14px;
     border: none;
     outline: none;
     padding-left: 10px;
